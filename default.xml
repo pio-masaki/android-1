@@ -8,6 +8,8 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+  <remote  name="il"
+           fetch="https://github.com/INFAMOUS-LOLLIPOP/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -553,5 +555,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  
+<!-- INFAMOUS --> 
   <project path="vendor/infamous" name="INFAMOUS-LOLLIPOP/android_vendor_infamous" />
+  <project path="vendor/motorola" name="INFAMOUS-LOLLIPOP/android_vendor_motorola" />
+  <project name="android_device_moto_shamu" path="device/moto/shamu" remote="il" revision="lollipop" />
+  <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="il" revision="lollipop" />
 </manifest>
