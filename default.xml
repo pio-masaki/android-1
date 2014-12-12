@@ -19,12 +19,13 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- INFAMOUS -->
-  <project path="build" name="android_build" remote="il" revision="lollipop" >
+  <!-- INFAMOUS -->   
+  <project path="build" name="INFAMOUS-LOLLIPOP/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="il" revision="lollipop" /> 
-  
+
+  <project path="android" name="INFAMOUS-LOLLIPOP/android" />
+
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
