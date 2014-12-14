@@ -557,7 +557,7 @@
   
 <!-- INFAMOUS --> 
   <project path="vendor/infamous" name="android_vendor_infamous" remote="il" revision="lollipop" />
-  <project path="vendor/motorola" name="android_vendor_motorola" remote="il" revision="lollipop" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="il" revision="lollipop" />
   <project name="android_device_motorola_shamu" path="device/motorola/shamu" remote="il" revision="lollipop" />
   <project name="android_kernel_motorola_shamu" path="kernel/motorola/shamu" remote="il" revision="lollipop" />
 </manifest>
